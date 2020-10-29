@@ -377,7 +377,7 @@
           </dict>
         </dict>
         <key>match</key>
-        <string>(?i)(\w+\.)?(\S+?)\s+(AS)\s+([\w'"`]+)</string>
+        <string>(?i)(\w+\.)?(\S+?)\s+(AS)\s+((['"`])*\w+\5*)</string>
       </dict>
       <dict>
         <key>match</key>
